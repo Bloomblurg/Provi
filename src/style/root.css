@@ -1,0 +1,42 @@
+
+body{
+	background-color: var(--bg-c-a);
+	color: var(--bg-c-on-a);
+	margin: 0px;
+}
+
+.box{
+	background-color: var(--bg-c-b);
+	color: var(--bg-c-on-b);
+	margin: 12px;
+	padding: 12px;
+	border-radius: 3px;
+}
+
+.nav-bar{
+	background-color: var(--bg-c-b);
+}
+.nav-box{
+	color: var(--bg-c-on-b);
+	font-size: 30px;
+
+	width: 100px;
+	padding: 12px;
+	border-radius: 3px;
+
+	margin-right: 1px;
+}
+.nav-box:hover{
+	background-color: var(--bg-c-c);
+	cursor: pointer;
+}
+
+/* Look at docs site css to grab selectors? */
+.p-datepicker table td > span {
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 50%;
+	transition: box-shadow 0.2s;
+	border: 1px solid transparent;
+}
+

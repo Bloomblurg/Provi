@@ -1,0 +1,20 @@
+/*
+	bg = Background
+	bg-c = Background Color
+	bg-c-a = Background Color A
+	bg-c-on-a = Background Color On A  (something to contrast with color A)
+
+	A,B,C = layer tiers like primary, secondary, tiertary
+	So A should be the very bottom later of UI, then B ontop of that, then C
+*/
+
+.theme-dark{
+	--bg-c-a: #2e2922;
+	--bg-c-on-a: #b4b290;
+
+	--bg-c-b: #292013;
+	--bg-c-on-b: #dfdcb1;
+
+	--bg-c-c: #382b1a;
+	--bg-c-on-c: #ecdb8c;
+}
